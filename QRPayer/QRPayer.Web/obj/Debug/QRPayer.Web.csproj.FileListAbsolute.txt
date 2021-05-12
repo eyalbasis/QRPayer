@@ -62,3 +62,4 @@ C:\Users\אייל\source\repos\QRPayer\QRPayer\QRPayer.Web\obj\Debug\QRPayer.Web
 C:\Users\אייל\source\repos\QRPayer\QRPayer\QRPayer.Web\obj\Debug\QRPayer.Web.csproj.CopyComplete
 C:\Users\אייל\source\repos\QRPayer\QRPayer\QRPayer.Web\obj\Debug\QRPayer.Web.dll
 C:\Users\אייל\source\repos\QRPayer\QRPayer\QRPayer.Web\obj\Debug\QRPayer.Web.pdb
+C:\Users\אייל\source\repos\QRPayer\QRPayer\QRPayer.Web\obj\Debug\QRPayer.Web.csprojAssemblyReference.cache

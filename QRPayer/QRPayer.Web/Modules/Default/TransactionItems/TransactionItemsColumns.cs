@@ -20,6 +20,5 @@ namespace QRPayer.Default.Columns
         public String CustomerClubMember { get; set; }
         public Double TotalPaid { get; set; }
 
-        // hiiiii
-    }
+     }
 }

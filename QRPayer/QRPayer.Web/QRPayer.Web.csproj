@@ -596,6 +596,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\ionicons.svg" />
     <Content Include="fonts\Simple-Line-Icons.svg" />
+    <Content Include="Modules\Default\Transactions\WebForm1.aspx" />
     <Content Include="Readme.CodeGenerator.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -851,6 +852,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="wkhtmltopdf-license.txt" />
+    <Content Include="Modules\Default\Transactions\paying.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-ui-1.12.1.js" />
     <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
@@ -1874,61 +1876,115 @@
     <TypeScriptCompile Include="Scripts\serenity\slick\serenity-slick.d.ts" />
     <TypeScriptCompile Include="Scripts\serenity\widget\serenity-widget.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\serenity\Serenity.CoreLib.d.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomersRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomersService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomersRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomersService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\Customers\CustomersIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\Customers\CustomersDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\Customers\CustomersGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomersForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomersForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Content\site\site.default.less" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomerTablesRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomerTablesService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomerTablesRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomerTablesService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\CustomerTables\CustomerTablesIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\CustomerTables\CustomerTablesDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\CustomerTables\CustomerTablesGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomerTablesForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.ItemsRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.ItemsService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.CustomerTablesForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.ItemsRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.ItemsService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\Items\ItemsIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\Items\ItemsDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\Items\ItemsGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.ItemsForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.MailsMessagesRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.MailsMessagesService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.ItemsForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.MailsMessagesRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.MailsMessagesService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\MailsMessages\MailsMessagesIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\MailsMessages\MailsMessagesDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\MailsMessages\MailsMessagesGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.MailsMessagesForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.PersonsRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.PersonsService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.MailsMessagesForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.PersonsRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.PersonsService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\Persons\PersonsIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\Persons\PersonsDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\Persons\PersonsGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.PersonsForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TipsRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TipsService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.PersonsForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TipsRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TipsService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\Tips\TipsIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\Tips\TipsDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\Tips\TipsGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TipsForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionItemsRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionItemsService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TipsForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionItemsRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionItemsService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\TransactionItems\TransactionItemsIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\TransactionItems\TransactionItemsDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\TransactionItems\TransactionItemsGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionItemsForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionsRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionsService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionItemsForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionsRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionsService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\Transactions\TransactionsIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\Transactions\TransactionsDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\Transactions\TransactionsGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionsForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.WaitersRow.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.WaitersService.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.TransactionsForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.WaitersRow.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.WaitersService.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
     <Content Include="Modules\Default\Waiters\WaitersIndex.cshtml" />
     <TypeScriptCompile Include="Modules\Default\Waiters\WaitersDialog.ts" />
     <TypeScriptCompile Include="Modules\Default\Waiters\WaitersGrid.ts" />
-    <TypeScriptCompile Include="Imports\ServerTypings\Default.WaitersForm.ts">  <DependentUpon>ServerTypings.tt</DependentUpon></TypeScriptCompile>
+    <TypeScriptCompile Include="Imports\ServerTypings\Default.WaitersForm.ts">
+      <DependentUpon>ServerTypings.tt</DependentUpon>
+    </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -1998,6 +2054,13 @@
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesListRequest.cs" />
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesEndpoint.cs" />
     <Compile Include="Modules\BasicSamples\Grids\StoredProcedureGrid\CustomerGrossSalesRepository.cs" />
+    <Compile Include="Modules\Default\Transactions\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modules\Default\Transactions\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Modules\Northwind\Customer\CustomerGrossSalesRow.cs" />
     <Compile Include="Modules\BasicSamples\Grids\VSGalleryQA\VSGalleryQAColumns.cs" />
     <Compile Include="Modules\BasicSamples\Grids\VSGalleryQA\VSGalleryQAParser.cs" />
